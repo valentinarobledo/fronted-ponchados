@@ -1,0 +1,65 @@
+.btn-game {
+	margin-top: 20px;
+	border-bottom: 5px solid #035600;
+	background: #65bf18;
+	color: white;
+	width: 100%;
+	border-radius: 10px;
+	&:hover{
+		background: #BFF199;
+	}
+}
+
+
+.page-login, .register-page, .upload-page{
+	background: #4199E3;
+	min-height: 100vh;
+
+	.form {
+		max-width: 500px;
+		margin: 0 auto;
+		border-radius: 10px;
+		padding: 20px;
+		box-shadow: 0 0 5px rgba(0,0,0,0.2);
+		padding: 70px 0;
+	}
+
+	.input-form {
+		margin: 0;
+		border-radius: 0 0 10px 10px;
+		border: none;
+
+		&.v1 {
+			border-radius: 10px 10px 0 0;
+			border-bottom: 1px solid #ddd;
+		}
+
+		&.v2{
+			border-radius:0;
+		}
+
+	}
+
+	.btn-link{
+		color: #082979;
+	}
+
+
+	.avatar {
+		background: #eee;
+		height: 75px;
+		width: 75px;
+		border-radius: 100px;
+		margin: 0 auto;
+		border: 5px solid white;
+		margin-bottom: 10px;
+	}
+
+	
+	.btn2{
+		text-decoration: none;
+		color:white;
+		font-weight: bold;
+	}
+	
+}
